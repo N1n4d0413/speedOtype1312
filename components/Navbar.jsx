@@ -1,0 +1,18 @@
+import "./Navbar.css";
+import { GiSpeedometer } from "react-icons/gi";
+import { BsBrightnessHigh } from "react-icons/bs";
+import { MdOutlineDarkMode } from "react-icons/md";
+
+function Navbar(props)
+{
+    return <div className={props.darkMode? "dark-navbar" : "navbar" }>
+            <h1><GiSpeedometer/> SpeedoType</h1>
+            <div className="nav-right">
+                <p className="best-text">Best Score : <span className="best-score">{props.best}</span></p>
+                <button onClick={props.changeTheme} className="theme-toggle" >
+                {props.darkMode ? <BsBrightnessHigh/> : <MdOutlineDarkMode/> }</button>
+            </div>
+           </div>
+}
+
+export default Navbar;
