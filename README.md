@@ -1,6 +1,6 @@
-Live Demo :- [demo](https://speedotypebyn1n4d.web.app/)
+Live Demo :- [](https://speedotypebyn1n4d.web.app/)
 
-Steps to run locally \n
+Steps to run locally 
 
 1. **File Explorer:** Go to your desired folder.
 2. **Terminal:** Open the folder in your terminal.
