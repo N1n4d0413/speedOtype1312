@@ -30,7 +30,7 @@ SpeedoType is a one-page typing speed test built with React and Vite. It measure
 ## Project Structure
 
 ```text
--- src/
+   src/
    |-- App.css
    |-- App.jsx
    |-- assets/
